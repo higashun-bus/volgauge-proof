@@ -1,0 +1,30 @@
+{
+  "protocol": "pre_registration_v2.0",
+  "frozen_at": "2026-08-11T06:43:19Z",
+  "count_start": "2026-08-11T06:43:19Z",
+  "protocol_version": "2.1",
+  "target_events": 267,
+  "params_hash": "dbf36471635b",
+  "params": {
+    "lookback": 20,
+    "method": "ratio",
+    "threshold": 3.0,
+    "ema_period": 200,
+    "rsi_period": 14,
+    "rsi_basis": "prev",
+    "timeframe": "1h",
+    "symbols": [
+      "BTC/USDT",
+      "DOGE/USDT",
+      "ETH/USDT",
+      "SOL/USDT"
+    ],
+    "exchange": "bybit"
+  },
+  "files": {
+    "pre_registration_v2.md": "6a0fab6694562049004e38326f518a97c9bdaa1d1ca4be5e15587fa8c0f795b4",
+    "stats_core.py": "d5beceb27cdfb00004c7b5cadf703c484216471f6077cf432248bfd5fc3c7466",
+    "replication.py": "76d75173f9d6f4e13307114a4025243e32caeb7957831f61788ad9dd04cf75da",
+    "power_calc.py": "1b8ffb3fa551c5d6c6e12c8b418d05554ae0ae47039e893d2a0763bb6526c860"
+  }
+}
